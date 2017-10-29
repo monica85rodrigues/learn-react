@@ -2,7 +2,7 @@
 
 First steps to learn react
 
-This repository has training exercises about react.
+This repository contains training exercises about react.
 
 ## Declare functions
 
