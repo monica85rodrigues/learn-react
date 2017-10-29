@@ -6,7 +6,7 @@ This repository has training exercises about react.
 
 ## Declare functions
 
-<code>
+```js
 const Card = (props) => {
 	return (
 		<div style={{margin: '1em'}}>
@@ -20,11 +20,11 @@ const Card = (props) => {
 		</div>
 	);
 };
-</code>
+```
 
 ## Declare classes
 
-<code>
+```js
 class App extends React.Component {
 	state = {
 		cards : []
@@ -45,15 +45,14 @@ class App extends React.Component {
 		);
 	}
 }
-</code>
+```
 
 ## Work with arrays
 
-<code>
+```js
 props.cards.map(card => 
-					<Card key={card.id} {...card} />
-				) 
-</code>
-
+		  <Card key={card.id} {...card} />
+	        ) 
+```
 
 
